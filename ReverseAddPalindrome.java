@@ -29,6 +29,7 @@ public class ReverseAddPalindrome {
                 
                 number = sum;
 			}
+			
 		}
 	}
 	
@@ -37,6 +38,7 @@ public class ReverseAddPalindrome {
 		int reverse = reverseNumber(number);
 		if (number == reverse)
 		{
+			System.out.println("This Number is a palindrome");
 			return true;
 		}
 		else
